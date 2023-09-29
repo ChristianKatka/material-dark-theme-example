@@ -1,5 +1,6 @@
 import { DialogComponent } from './home/dialog/dialog.component';
 import { HomeComponent } from './home/home.component';
+import { MyWrapperComponent } from './home/my-wrapper/my-wrapper.component';
 import { NavbarComponent } from './navigation-wrapper/navbar/navbar.component';
 import { NavigationWrapperComponent } from './navigation-wrapper/navigation-wrapper.component';
 import { SidenavComponent } from './navigation-wrapper/side-nav/sidenav.component';
@@ -12,4 +13,5 @@ export const components = [
   NavbarComponent,
   SpaceGiverUsedWithNavbarComponent,
   DialogComponent,
+  MyWrapperComponent,
 ];
