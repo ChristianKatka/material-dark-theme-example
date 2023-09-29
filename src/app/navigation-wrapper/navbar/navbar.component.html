@@ -1,0 +1,14 @@
+<mat-toolbar class="flex-row align-space-between-center">
+  <h1>Logo</h1>
+
+  <div class="flex-row align-center-center">
+    <mat-slide-toggle
+      (change)="onToggleDarkMode()"
+      [checked]="false"
+    ></mat-slide-toggle>
+
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,12 @@
+<main class="flex-column align-center-center" [style.width]="'100%'">
+  <h1 style="margin-top: 100px; margin-bottom: 50px">LOGO</h1>
+  <section [style.width]="'95%'">
+    <a (click)="closeSidenav.emit()" routerLink="/etusivu">Etusivu</a>
+    <a (click)="closeSidenav.emit()" routerLink="/palvelut">Palvelut</a>
+    <a (click)="closeSidenav.emit()" routerLink="/ajankohtaista"
+      >Ajankohtaista</a
+    >
+    <a (click)="closeSidenav.emit()" routerLink="/yritys">Yritys</a>
+    <a (click)="closeSidenav.emit()" routerLink="/yhteystiedot">Yhteystiedot</a>
+  </section>
+</main>
